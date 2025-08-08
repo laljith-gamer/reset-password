@@ -4,7 +4,7 @@ const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // Configuration - UPDATE THIS URL TO YOUR MAIN WEBSITE
-const MAIN_WEBSITE_URL = "https://knowledge-exchange-eight.vercel.app"; // Your main website URL
+const MAIN_WEBSITE_URL = "https://knowledge-exchange-eight.vercel.app";
 
 // Global variables
 let userEmail = "";
@@ -393,3 +393,4 @@ function hideLoading() {
     const overlay = document.getElementById('loadingOverlay');
     overlay.classList.add('hidden');
 }
+
